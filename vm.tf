@@ -210,7 +210,7 @@ resource "ibm_lbaas" "lbaas" {
   name        = "${var.appname}-${random_id.appid.dec}-lb"
   description = "Load balancer for ${var.appname}"
   # Uses the default (primary) private subnet for provisioning the load balancer
-  subnets     = [1610317]
+  subnets     = [1638257]
 
   protocols = [
     {
